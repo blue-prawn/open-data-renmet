@@ -5,9 +5,9 @@ O_DATA_D11 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibl
 O_DATA_D12 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2012_parjour.csv
 O_DATA_D13 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2013_parjour.csv
 
-O_DATA_H11 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2012_parheure.csv
+O_DATA_H11 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2011_parheure.csv
 O_DATA_H12 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2012_parheure.csv
-O_DATA_H13 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2012_parheure.csv
+O_DATA_H13 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/frequentation2013_parheure.csv
 O_DATA_H14 = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data/bibliotheques-de-rennes/2014/frequentation_parheure.csv
 
 all: \
