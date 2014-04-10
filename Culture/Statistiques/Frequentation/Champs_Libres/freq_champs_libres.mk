@@ -12,7 +12,8 @@ O_DATA_H12 = $(DATA_DIR)/bibliotheques-de-rennes/frequentation2012_parheure.csv
 O_DATA_H13 = $(DATA_DIR)/bibliotheques-de-rennes/frequentation2013_parheure.csv
 O_DATA_H14 = $(DATA_DIR)/bibliotheques-de-rennes/2014/frequentation_parheure.csv
 
-all: \
+.PHONY: dl
+dl: \
   freq_champs_libres_by_hour_2011.csv \
   freq_champs_libres_by_hour_2012.csv \
   freq_champs_libres_by_hour_2013.csv \
