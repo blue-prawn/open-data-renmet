@@ -1,5 +1,5 @@
 CAT = cat
-WGET = curl -s
+CURL = curl -s
 
 UNZIP = unzip
 MD5SUM = md5sum
@@ -15,7 +15,7 @@ IN_META = $(ODDIR)/metadonnees/'composteurs_collectifs (csv).txt'
 all: $(ODDIR)
 
 $(ODZIP):
-	$(WGET) $(ODATA) > $(ODZIP)
+	$(CURL) $(ODATA) > $(ODZIP)
 
 $(ODDIR): $(ODZIP)
 	$(UNZIP) $<
