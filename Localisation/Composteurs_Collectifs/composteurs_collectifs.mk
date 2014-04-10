@@ -14,8 +14,11 @@ IN_META = $(ODDIR)/metadonnees/'composteurs_collectifs (csv).txt'
 
 all: $(ODDIR)
 
+.PHONY: dl
+dl: $(ODZIP)
+
 $(ODZIP):
-	$(CURL) $(ODATA) > $(ODZIP)
+	$(CURL) $(ODATA) > $@
 
 $(ODDIR): $(ODZIP)
 	$(UNZIP) $<
