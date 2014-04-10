@@ -1,5 +1,5 @@
 CAT = cat
-WGET = curl -s
+CURL = curl -s
 
 DATA_DIR = http://www.data.rennes-metropole.fr/fileadmin/user_upload/data
 
@@ -25,29 +25,29 @@ all: \
 # current one
 
 freq_champs_libres_by_hour_2014.csv:
-	$(WGET) '$(O_DATA_H14)' > $@
+	$(CURL) '$(O_DATA_H14)' > $@
 
 # by hour
 
 freq_champs_libres_by_hour_2011.csv:
-	$(WGET) '$(O_DATA_H11)' > $@
+	$(CURL) '$(O_DATA_H11)' > $@
 
 freq_champs_libres_by_hour_2012.csv:
-	$(WGET) '$(O_DATA_H12)' > $@
+	$(CURL) '$(O_DATA_H12)' > $@
 
 freq_champs_libres_by_hour_2013.csv:
-	$(WGET) '$(O_DATA_H13)' > $@
+	$(CURL) '$(O_DATA_H13)' > $@
 
 # by day
 
 freq_champs_libres_by_day_2011.csv:
-	$(WGET) '$(O_DATA_D11)' > $@
+	$(CURL) '$(O_DATA_D11)' > $@
 
 freq_champs_libres_by_day_2012.csv:
-	$(WGET) '$(O_DATA_D12)' > $@
+	$(CURL) '$(O_DATA_D12)' > $@
 
 freq_champs_libres_by_day_2013.csv:
-	$(WGET) '$(O_DATA_D13)' > $@
+	$(CURL) '$(O_DATA_D13)' > $@
 
 # Hygiene
 
